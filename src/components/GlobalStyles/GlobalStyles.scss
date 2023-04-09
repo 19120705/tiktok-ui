@@ -33,6 +33,18 @@ body {
     overflow-y: overlay;
 }
 
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'SofiaPro';
     src: url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/sofiapro-bold.woff2)
