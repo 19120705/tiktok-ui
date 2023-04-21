@@ -18,6 +18,7 @@ function Button({
     children,
     leftIcon,
     rightIcon,
+    toggle,
     onClick,
     ...passProps
 }) {
@@ -51,6 +52,7 @@ function Button({
             {leftIcon && <span className={cx('icon')}>{leftIcon}</span>}
             <span className={cx('title')}>{children}</span>
             {rightIcon && <span className={cx('icon')}>{rightIcon}</span>}
+            {toggle && <span className={cx('toggle')}>{toggle}</span>}
         </Comp>
     );
 }

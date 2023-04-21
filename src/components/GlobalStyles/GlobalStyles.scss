@@ -11,7 +11,7 @@
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
-    --default-layout-horizontal-spacer: 24px;
+    --default-layout-horizontal-spacer: 16px;
 }
 
 * {
@@ -96,7 +96,7 @@ a {
 // Custom tippy tooltip
 body {
     .tippy-box {
-        border-radius: 8px;
+        border-radius: 9px;
         font-weight: 600;
         font-size: 1.6rem;
         line-height: 2.2rem;
